@@ -74,7 +74,7 @@ int main()
 
     while (!bGameOver)
     {
-        this_thread::sleep_for(50ms);
+        this_thread::sleep_for(40ms);
         nSpeedCount++;
         bForceDown = (nSpeedCount == nSpeed);
 
