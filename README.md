@@ -7,7 +7,7 @@ This project is a simple Tetris clone implemented in C++ using the ncurses libra
 - **Right Arrow**: Move the current piece to the right.
 - **Left Arrow**: Move the current piece to the left.
 - **Down Arrow**: Accelerate the descent of the current piece.
-- **Z Key**: Rotate the current piece (clockwise).
+- **Up Key**: Rotate the current piece (clockwise).
 
 ## Features
 - **Tetromino Rotation**: Pieces are rotated using a custom rotation function.
