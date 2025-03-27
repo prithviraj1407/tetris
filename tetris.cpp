@@ -83,7 +83,7 @@ int main()
         bKey[0] = (ch == KEY_RIGHT);
         bKey[1] = (ch == KEY_LEFT);
         bKey[2] = (ch == KEY_DOWN);
-        bKey[3] = (ch == 'z' || ch == 'Z');
+        bKey[3] = (ch == KEY_UP);
 
         // Movement
         nCurrentX += (bKey[0] && DoesPieceFit(nCurrentPiece, nCurrentRotation, nCurrentX + 1, nCurrentY)) ? 1 : 0;
